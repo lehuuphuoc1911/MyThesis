@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\ConcretePlant",
+    "\\ConcretePlant\\ConcretePlant"
   ],
-  "SelectedNode": "\\README.md",
+  "SelectedNode": "\\ConcretePlant\\ConcretePlant\\Delete.Designer.vb",
   "PreviewInSolutionExplorer": false
 }
