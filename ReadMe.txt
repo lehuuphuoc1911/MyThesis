@@ -1,1 +1,0 @@
-MMCProcConnect.vbの以外、全ては自分で開発しました。
