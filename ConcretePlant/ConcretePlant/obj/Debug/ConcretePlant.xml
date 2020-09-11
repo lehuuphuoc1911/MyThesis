@@ -1,0 +1,457 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ConcretePlant
+</name>
+</assembly>
+<members>
+<member name="T:ConcretePlant.My.Resources.Resource">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.ADD">
+<summary>
+  Looks up a localized string similar to ADD.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.ADDCOMBINE">
+<summary>
+  Looks up a localized string similar to ADD COMBINE.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.addnew">
+<summary>
+  Looks up a localized string similar to ADD NEW.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.BATCHESNO">
+<summary>
+  Looks up a localized string similar to NUMBER OF BATCHES.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.BATCHEXE">
+<summary>
+  Looks up a localized string similar to BATCH EXECUTING-.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.BATCHVOL1">
+<summary>
+  Looks up a localized string similar to BATCH VOLUME 1 (M3).
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.BATCHVOL2">
+<summary>
+  Looks up a localized string similar to BATCH VOLUME 2 (M3).
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.BATNO1">
+<summary>
+  Looks up a localized string similar to BATCH No.1.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.BATNO2">
+<summary>
+  Looks up a localized string similar to BATCH No.2.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.bt_detail">
+<summary>
+  Looks up a localized string similar to DETAIL.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.bt_edit">
+<summary>
+  Looks up a localized string similar to EDIT.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.bt_Mixer_ope">
+<summary>
+  Looks up a localized string similar to MIXER.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.bt_toCombine">
+<summary>
+  Looks up a localized string similar to COMBINE.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.bt_toNhapXuat">
+<summary>
+  Looks up a localized string similar to MIXTURE.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.bt_toWeiPr">
+<summary>
+  Looks up a localized string similar to WEIGHING.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.btn_del_ope">
+<summary>
+  Looks up a localized string similar to DELETE.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.CANTCONNECT">
+<summary>
+  Looks up a localized string similar to CAN NOT CONNECT TO SERVER.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.CANTEDIT">
+<summary>
+  Looks up a localized string similar to CAN NOT EDIT. OBJECT MAY NOT EXIST.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.CANTFINDOBJ">
+<summary>
+  Looks up a localized string similar to CAN NOT FIND OBJECT.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.CANTWRITE">
+<summary>
+  Looks up a localized string similar to CAN NOT WRITE. OBJECT ALREADY EXISTS.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.CARNO">
+<summary>
+  Looks up a localized string similar to CAR No..
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.CBNCODE">
+<summary>
+  Looks up a localized string similar to COMBINE CODE.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.ComRANG">
+<summary>
+  Looks up a localized string similar to COMPLETION RANGE.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.ComTIME">
+<summary>
+  Looks up a localized string similar to COMPLETION TIME.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.DELWARR">
+<summary>
+  Looks up a localized string similar to DO YOU WANT TO DELETE THE ORDER.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.EMS">
+<summary>
+  Looks up a localized string similar to EMS_CPT_RANGE.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.FINE_WEI">
+<summary>
+  Looks up a localized string similar to FINE WEIGHING.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.FLUSHTIME">
+<summary>
+  Looks up a localized string similar to FLUSHING TIME.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.FRM_BATCH">
+<summary>
+  Looks up a localized string similar to BATCH.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.frm_operate">
+<summary>
+  Looks up a localized string similar to OPERATE.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.GaClsTi">
+<summary>
+  Looks up a localized string similar to GATE CLOSE TIME.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.gb_lang">
+<summary>
+  Looks up a localized string similar to LANGUAGE.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.HopCT">
+<summary>
+  Looks up a localized string similar to HOPPER CHECK TIME.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.JOGOFF">
+<summary>
+  Looks up a localized string similar to JOG OFF.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.JOGON">
+<summary>
+  Looks up a localized string similar to JOG TIME.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.lb_setting_ope">
+<summary>
+  Looks up a localized string similar to SETTING.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.LB136WEI">
+<summary>
+  Looks up a localized string similar to .
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.MCheckT">
+<summary>
+  Looks up a localized string similar to MIXER CHECK TIME.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.MEmptyT">
+<summary>
+  Looks up a localized string similar to MIXER EMPTY TIME.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.MGateOT">
+<summary>
+  Looks up a localized string similar to MIXER GATE OPEN TIME.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.MIX_TIME1">
+<summary>
+  Looks up a localized string similar to MIXING TIME 1.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.MIX_TIME10">
+<summary>
+  Looks up a localized string similar to MIXING TIME 10.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.MIX_TIME2">
+<summary>
+  Looks up a localized string similar to MIXING TIME 2.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.MIX_TIME3">
+<summary>
+  Looks up a localized string similar to MIXING TIME 3.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.MIX_TIME4">
+<summary>
+  Looks up a localized string similar to MIXING TIME 4.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.MIX_TIME5">
+<summary>
+  Looks up a localized string similar to MIXING TIME 5.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.MIX_TIME6">
+<summary>
+  Looks up a localized string similar to MIXING TIME 6.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.MIX_TIME7">
+<summary>
+  Looks up a localized string similar to MIXING TIME 7.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.MIX_TIME8">
+<summary>
+  Looks up a localized string similar to MIXING TIME 8.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.MIX_TIME9">
+<summary>
+  Looks up a localized string similar to MIXING TIME 9.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.MIXING">
+<summary>
+  Looks up a localized string similar to MIXING.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.MIXSTEP">
+<summary>
+  Looks up a localized string similar to MIXER STEP.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.MIXTIME">
+<summary>
+  Looks up a localized string similar to MIXING TIME.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.MIXTYPE1">
+<summary>
+  Looks up a localized string similar to MIXING TYPE 1.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.MIXTYPE10">
+<summary>
+  Looks up a localized string similar to MIXING TYPE 10.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.MIXTYPE2">
+<summary>
+  Looks up a localized string similar to MIXING TYPE 2.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.MIXTYPE3">
+<summary>
+  Looks up a localized string similar to MIXING TYPE 3.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.MIXTYPE4">
+<summary>
+  Looks up a localized string similar to MIXING TYPE 4.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.MIXTYPE5">
+<summary>
+  Looks up a localized string similar to MIXING TYPE 5.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.MIXTYPE6">
+<summary>
+  Looks up a localized string similar to MIXING TYPE 6.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.MIXTYPE7">
+<summary>
+  Looks up a localized string similar to MIXING TYPE 7.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.MIXTYPE8">
+<summary>
+  Looks up a localized string similar to MIXING TYPE 8.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.MIXTYPE9">
+<summary>
+  Looks up a localized string similar to MIXING TYPE 9.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.MIXVOL">
+<summary>
+  Looks up a localized string similar to MIXER VOLUME.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.NAME">
+<summary>
+  Looks up a localized string similar to NAME.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.NEWCOMBINE">
+<summary>
+  Looks up a localized string similar to NEW COMBINE.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.NO">
+<summary>
+  Looks up a localized string similar to NO.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.No_">
+<summary>
+  Looks up a localized string similar to No..
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.ORDERCODE">
+<summary>
+  Looks up a localized string similar to ORDER CODE.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.rb_Eng">
+<summary>
+  Looks up a localized string similar to ENGLISH.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.rb_VNese">
+<summary>
+  Looks up a localized string similar to VIETNAMESE.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.SAVE">
+<summary>
+  Looks up a localized string similar to SAVE.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.VOLUME">
+<summary>
+  Looks up a localized string similar to VOLUME.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.WEI_PRO">
+<summary>
+  Looks up a localized string similar to WEIGHING PROPERTIES.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resource.YES">
+<summary>
+  Looks up a localized string similar to YES.
+</summary>
+</member>
+<member name="T:ConcretePlant.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resources.Fine">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resources.LedOFF">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resources.LedON">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resources.None">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resources.OFF">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resources.Rough">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resources.sodo1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ConcretePlant.My.Resources.Resources.Untitled">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+</members>
+</doc>

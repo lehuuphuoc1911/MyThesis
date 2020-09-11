@@ -1,0 +1,3468 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pn_setting.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 322</value>
+  </data>
+  <data name="Button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Button1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="Button1.Text" xml:space="preserve">
+    <value>Button1</value>
+  </data>
+  <data name="&gt;&gt;Button1.Name" xml:space="preserve">
+    <value>Button1</value>
+  </data>
+  <data name="&gt;&gt;Button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button1.Parent" xml:space="preserve">
+    <value>pn_setting</value>
+  </data>
+  <data name="&gt;&gt;Button1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="bt_Mixer.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="bt_Mixer.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="bt_Mixer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 170</value>
+  </data>
+  <data name="bt_Mixer.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="bt_Mixer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 25</value>
+  </data>
+  <data name="bt_Mixer.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="bt_Mixer.Text" xml:space="preserve">
+    <value>MIXER</value>
+  </data>
+  <data name="&gt;&gt;bt_Mixer.Name" xml:space="preserve">
+    <value>bt_Mixer</value>
+  </data>
+  <data name="&gt;&gt;bt_Mixer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bt_Mixer.Parent" xml:space="preserve">
+    <value>pn_setting</value>
+  </data>
+  <data name="&gt;&gt;bt_Mixer.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="gb_lang.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="rb_VNese.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rb_VNese.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rb_VNese.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 40</value>
+  </data>
+  <data name="rb_VNese.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 17</value>
+  </data>
+  <data name="rb_VNese.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="rb_VNese.Text" xml:space="preserve">
+    <value>VIETNAMESE</value>
+  </data>
+  <data name="&gt;&gt;rb_VNese.Name" xml:space="preserve">
+    <value>rb_VNese</value>
+  </data>
+  <data name="&gt;&gt;rb_VNese.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rb_VNese.Parent" xml:space="preserve">
+    <value>gb_lang</value>
+  </data>
+  <data name="&gt;&gt;rb_VNese.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="rb_Eng.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rb_Eng.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rb_Eng.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 17</value>
+  </data>
+  <data name="rb_Eng.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 17</value>
+  </data>
+  <data name="rb_Eng.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rb_Eng.Text" xml:space="preserve">
+    <value>ENGLISH</value>
+  </data>
+  <data name="&gt;&gt;rb_Eng.Name" xml:space="preserve">
+    <value>rb_Eng</value>
+  </data>
+  <data name="&gt;&gt;rb_Eng.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rb_Eng.Parent" xml:space="preserve">
+    <value>gb_lang</value>
+  </data>
+  <data name="&gt;&gt;rb_Eng.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="gb_lang.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 110</value>
+  </data>
+  <data name="gb_lang.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="gb_lang.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 60</value>
+  </data>
+  <data name="gb_lang.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="gb_lang.Text" xml:space="preserve">
+    <value>LANGUAGE</value>
+  </data>
+  <data name="&gt;&gt;gb_lang.Name" xml:space="preserve">
+    <value>gb_lang</value>
+  </data>
+  <data name="&gt;&gt;gb_lang.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gb_lang.Parent" xml:space="preserve">
+    <value>pn_setting</value>
+  </data>
+  <data name="&gt;&gt;gb_lang.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="bt_toCombine.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="bt_toCombine.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="bt_toCombine.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 85</value>
+  </data>
+  <data name="bt_toCombine.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="bt_toCombine.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 25</value>
+  </data>
+  <data name="bt_toCombine.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="bt_toCombine.Text" xml:space="preserve">
+    <value>COMBINE</value>
+  </data>
+  <data name="&gt;&gt;bt_toCombine.Name" xml:space="preserve">
+    <value>bt_toCombine</value>
+  </data>
+  <data name="&gt;&gt;bt_toCombine.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bt_toCombine.Parent" xml:space="preserve">
+    <value>pn_setting</value>
+  </data>
+  <data name="&gt;&gt;bt_toCombine.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="bt_toWeiPr.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="bt_toWeiPr.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="bt_toWeiPr.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 55</value>
+  </data>
+  <data name="bt_toWeiPr.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="bt_toWeiPr.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 25</value>
+  </data>
+  <data name="bt_toWeiPr.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="bt_toWeiPr.Text" xml:space="preserve">
+    <value>WEIGHING</value>
+  </data>
+  <data name="&gt;&gt;bt_toWeiPr.Name" xml:space="preserve">
+    <value>bt_toWeiPr</value>
+  </data>
+  <data name="&gt;&gt;bt_toWeiPr.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bt_toWeiPr.Parent" xml:space="preserve">
+    <value>pn_setting</value>
+  </data>
+  <data name="&gt;&gt;bt_toWeiPr.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="bt_toNhapXuat.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="bt_toNhapXuat.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="bt_toNhapXuat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 25</value>
+  </data>
+  <data name="bt_toNhapXuat.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="bt_toNhapXuat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 25</value>
+  </data>
+  <data name="bt_toNhapXuat.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="bt_toNhapXuat.Text" xml:space="preserve">
+    <value>IN/OUT</value>
+  </data>
+  <data name="&gt;&gt;bt_toNhapXuat.Name" xml:space="preserve">
+    <value>bt_toNhapXuat</value>
+  </data>
+  <data name="&gt;&gt;bt_toNhapXuat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bt_toNhapXuat.Parent" xml:space="preserve">
+    <value>pn_setting</value>
+  </data>
+  <data name="&gt;&gt;bt_toNhapXuat.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lb_setting.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="lb_setting.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lb_setting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lb_setting.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lb_setting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 20</value>
+  </data>
+  <data name="lb_setting.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lb_setting.Text" xml:space="preserve">
+    <value>SETTING</value>
+  </data>
+  <data name="lb_setting.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lb_setting.Name" xml:space="preserve">
+    <value>lb_setting</value>
+  </data>
+  <data name="&gt;&gt;lb_setting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb_setting.Parent" xml:space="preserve">
+    <value>pn_setting</value>
+  </data>
+  <data name="&gt;&gt;lb_setting.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="pn_setting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1221, 0</value>
+  </data>
+  <data name="pn_setting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 553</value>
+  </data>
+  <data name="pn_setting.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pn_setting.Name" xml:space="preserve">
+    <value>pn_setting</value>
+  </data>
+  <data name="&gt;&gt;pn_setting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pn_setting.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pn_setting.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="dt_gridview.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="dt_gridview.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 590</value>
+  </data>
+  <data name="dt_gridview.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1220, 88</value>
+  </data>
+  <data name="dt_gridview.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;dt_gridview.Name" xml:space="preserve">
+    <value>dt_gridview</value>
+  </data>
+  <data name="&gt;&gt;dt_gridview.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dt_gridview.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dt_gridview.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="bt_add.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="bt_add.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="bt_add.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 25</value>
+  </data>
+  <data name="bt_add.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="bt_add.Text" xml:space="preserve">
+    <value>ADD NEW</value>
+  </data>
+  <data name="&gt;&gt;bt_add.Name" xml:space="preserve">
+    <value>bt_add</value>
+  </data>
+  <data name="&gt;&gt;bt_add.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bt_add.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;bt_add.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btn_del.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_del.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 65</value>
+  </data>
+  <data name="btn_del.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 25</value>
+  </data>
+  <data name="btn_del.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btn_del.Text" xml:space="preserve">
+    <value>DELETE</value>
+  </data>
+  <data name="&gt;&gt;btn_del.Name" xml:space="preserve">
+    <value>btn_del</value>
+  </data>
+  <data name="&gt;&gt;btn_del.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_del.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;btn_del.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Panel1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="bt_detail.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="bt_detail.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 96</value>
+  </data>
+  <data name="bt_detail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 25</value>
+  </data>
+  <data name="bt_detail.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="bt_detail.Text" xml:space="preserve">
+    <value>DETAIL</value>
+  </data>
+  <data name="&gt;&gt;bt_detail.Name" xml:space="preserve">
+    <value>bt_detail</value>
+  </data>
+  <data name="&gt;&gt;bt_detail.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bt_detail.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;bt_detail.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="bt_edit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="bt_edit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 34</value>
+  </data>
+  <data name="bt_edit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 25</value>
+  </data>
+  <data name="bt_edit.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="bt_edit.Text" xml:space="preserve">
+    <value>EDIT</value>
+  </data>
+  <data name="&gt;&gt;bt_edit.Name" xml:space="preserve">
+    <value>bt_edit</value>
+  </data>
+  <data name="&gt;&gt;bt_edit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bt_edit.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;bt_edit.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1221, 554</value>
+  </data>
+  <data name="Panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 124</value>
+  </data>
+  <data name="Panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;Panel1.Name" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Panel1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <metadata name="ContextMenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="ToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 22</value>
+  </data>
+  <data name="ToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="ToolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 22</value>
+  </data>
+  <data name="ToolStripMenuItem2.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Detail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 22</value>
+  </data>
+  <data name="Detail.Text" xml:space="preserve">
+    <value>Detail</value>
+  </data>
+  <data name="ContextMenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 70</value>
+  </data>
+  <data name="&gt;&gt;ContextMenuStrip1.Name" xml:space="preserve">
+    <value>ContextMenuStrip1</value>
+  </data>
+  <data name="&gt;&gt;ContextMenuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dt_grid_Executing.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="dt_grid_Executing.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 542</value>
+  </data>
+  <data name="dt_grid_Executing.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1220, 47</value>
+  </data>
+  <data name="dt_grid_Executing.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;dt_grid_Executing.Name" xml:space="preserve">
+    <value>dt_grid_Executing</value>
+  </data>
+  <data name="&gt;&gt;dt_grid_Executing.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dt_grid_Executing.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dt_grid_Executing.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <metadata name="ContextMenuStrip2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>187, 17</value>
+  </metadata>
+  <data name="Detail2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 22</value>
+  </data>
+  <data name="Detail2.Text" xml:space="preserve">
+    <value>Detail</value>
+  </data>
+  <data name="ContextMenuStrip2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 26</value>
+  </data>
+  <data name="&gt;&gt;ContextMenuStrip2.Name" xml:space="preserve">
+    <value>ContextMenuStrip2</value>
+  </data>
+  <data name="&gt;&gt;ContextMenuStrip2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Lb_TranferTime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Lb_TranferTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Lb_TranferTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>311, 415</value>
+  </data>
+  <data name="Lb_TranferTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 13</value>
+  </data>
+  <data name="Lb_TranferTime.TabIndex" type="System.Int32, mscorlib">
+    <value>97</value>
+  </data>
+  <data name="Lb_TranferTime.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Lb_TranferTime.Name" xml:space="preserve">
+    <value>Lb_TranferTime</value>
+  </data>
+  <data name="&gt;&gt;Lb_TranferTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lb_TranferTime.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Lb_TranferTime.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>236, 415</value>
+  </data>
+  <data name="Label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 13</value>
+  </data>
+  <data name="Label2.TabIndex" type="System.Int32, mscorlib">
+    <value>96</value>
+  </data>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>TransferTime</value>
+  </data>
+  <data name="&gt;&gt;Label2.Name" xml:space="preserve">
+    <value>Label2</value>
+  </data>
+  <data name="&gt;&gt;Label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label2.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Label2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Lb_drymix_timer.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Lb_drymix_timer.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Lb_drymix_timer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>835, 420</value>
+  </data>
+  <data name="Lb_drymix_timer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 13</value>
+  </data>
+  <data name="Lb_drymix_timer.TabIndex" type="System.Int32, mscorlib">
+    <value>95</value>
+  </data>
+  <data name="Lb_drymix_timer.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Lb_drymix_timer.Name" xml:space="preserve">
+    <value>Lb_drymix_timer</value>
+  </data>
+  <data name="&gt;&gt;Lb_drymix_timer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lb_drymix_timer.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Lb_drymix_timer.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Lb_OpenMixerTimer.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Lb_OpenMixerTimer.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Lb_OpenMixerTimer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>762, 487</value>
+  </data>
+  <data name="Lb_OpenMixerTimer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 13</value>
+  </data>
+  <data name="Lb_OpenMixerTimer.TabIndex" type="System.Int32, mscorlib">
+    <value>94</value>
+  </data>
+  <data name="Lb_OpenMixerTimer.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Lb_OpenMixerTimer.Name" xml:space="preserve">
+    <value>Lb_OpenMixerTimer</value>
+  </data>
+  <data name="&gt;&gt;Lb_OpenMixerTimer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lb_OpenMixerTimer.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Lb_OpenMixerTimer.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>837, 397</value>
+  </data>
+  <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 13</value>
+  </data>
+  <data name="Label1.TabIndex" type="System.Int32, mscorlib">
+    <value>93</value>
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>DryMix</value>
+  </data>
+  <data name="&gt;&gt;Label1.Name" xml:space="preserve">
+    <value>Label1</value>
+  </data>
+  <data name="&gt;&gt;Label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label1.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Label11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>719, 397</value>
+  </data>
+  <data name="Label11.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="Label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 13</value>
+  </data>
+  <data name="Label11.TabIndex" type="System.Int32, mscorlib">
+    <value>92</value>
+  </data>
+  <data name="Label11.Text" xml:space="preserve">
+    <value>MIXER</value>
+  </data>
+  <data name="&gt;&gt;Label11.Name" xml:space="preserve">
+    <value>Label11</value>
+  </data>
+  <data name="&gt;&gt;Label11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label11.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Label11.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Label_C3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label_C3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label_C3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1134, 128</value>
+  </data>
+  <data name="Label_C3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="Label_C3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 13</value>
+  </data>
+  <data name="Label_C3.TabIndex" type="System.Int32, mscorlib">
+    <value>91</value>
+  </data>
+  <data name="Label_C3.Text" xml:space="preserve">
+    <value>C3</value>
+  </data>
+  <data name="&gt;&gt;Label_C3.Name" xml:space="preserve">
+    <value>Label_C3</value>
+  </data>
+  <data name="&gt;&gt;Label_C3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_C3.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Label_C3.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Label_C2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label_C2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label_C2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1072, 69</value>
+  </data>
+  <data name="Label_C2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="Label_C2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 13</value>
+  </data>
+  <data name="Label_C2.TabIndex" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="Label_C2.Text" xml:space="preserve">
+    <value>C2</value>
+  </data>
+  <data name="&gt;&gt;Label_C2.Name" xml:space="preserve">
+    <value>Label_C2</value>
+  </data>
+  <data name="&gt;&gt;Label_C2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_C2.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Label_C2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Label_C1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label_C1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label_C1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1009, 6</value>
+  </data>
+  <data name="Label_C1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="Label_C1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 13</value>
+  </data>
+  <data name="Label_C1.TabIndex" type="System.Int32, mscorlib">
+    <value>89</value>
+  </data>
+  <data name="Label_C1.Text" xml:space="preserve">
+    <value>C1</value>
+  </data>
+  <data name="&gt;&gt;Label_C1.Name" xml:space="preserve">
+    <value>Label_C1</value>
+  </data>
+  <data name="&gt;&gt;Label_C1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_C1.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Label_C1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="Label_W1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label_W1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label_W1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>888, 18</value>
+  </data>
+  <data name="Label_W1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="Label_W1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 13</value>
+  </data>
+  <data name="Label_W1.TabIndex" type="System.Int32, mscorlib">
+    <value>88</value>
+  </data>
+  <data name="Label_W1.Text" xml:space="preserve">
+    <value>W1</value>
+  </data>
+  <data name="&gt;&gt;Label_W1.Name" xml:space="preserve">
+    <value>Label_W1</value>
+  </data>
+  <data name="&gt;&gt;Label_W1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_W1.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Label_W1.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="Label_A3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label_A3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label_A3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>420, 27</value>
+  </data>
+  <data name="Label_A3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="Label_A3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 13</value>
+  </data>
+  <data name="Label_A3.TabIndex" type="System.Int32, mscorlib">
+    <value>87</value>
+  </data>
+  <data name="Label_A3.Text" xml:space="preserve">
+    <value>A3</value>
+  </data>
+  <data name="&gt;&gt;Label_A3.Name" xml:space="preserve">
+    <value>Label_A3</value>
+  </data>
+  <data name="&gt;&gt;Label_A3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_A3.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Label_A3.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="Label_A2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label_A2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label_A2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>352, 27</value>
+  </data>
+  <data name="Label_A2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="Label_A2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 13</value>
+  </data>
+  <data name="Label_A2.TabIndex" type="System.Int32, mscorlib">
+    <value>86</value>
+  </data>
+  <data name="Label_A2.Text" xml:space="preserve">
+    <value>A2</value>
+  </data>
+  <data name="&gt;&gt;Label_A2.Name" xml:space="preserve">
+    <value>Label_A2</value>
+  </data>
+  <data name="&gt;&gt;Label_A2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_A2.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Label_A2.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="Label_A1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label_A1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label_A1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>282, 27</value>
+  </data>
+  <data name="Label_A1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="Label_A1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 13</value>
+  </data>
+  <data name="Label_A1.TabIndex" type="System.Int32, mscorlib">
+    <value>85</value>
+  </data>
+  <data name="Label_A1.Text" xml:space="preserve">
+    <value>A1</value>
+  </data>
+  <data name="&gt;&gt;Label_A1.Name" xml:space="preserve">
+    <value>Label_A1</value>
+  </data>
+  <data name="&gt;&gt;Label_A1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_A1.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Label_A1.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="Label_S2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label_S2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label_S2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>294, 169</value>
+  </data>
+  <data name="Label_S2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="Label_S2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 13</value>
+  </data>
+  <data name="Label_S2.TabIndex" type="System.Int32, mscorlib">
+    <value>84</value>
+  </data>
+  <data name="Label_S2.Text" xml:space="preserve">
+    <value>S2</value>
+  </data>
+  <data name="&gt;&gt;Label_S2.Name" xml:space="preserve">
+    <value>Label_S2</value>
+  </data>
+  <data name="&gt;&gt;Label_S2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_S2.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Label_S2.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="Label_S1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label_S1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label_S1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 169</value>
+  </data>
+  <data name="Label_S1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="Label_S1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 13</value>
+  </data>
+  <data name="Label_S1.TabIndex" type="System.Int32, mscorlib">
+    <value>83</value>
+  </data>
+  <data name="Label_S1.Text" xml:space="preserve">
+    <value>S1</value>
+  </data>
+  <data name="&gt;&gt;Label_S1.Name" xml:space="preserve">
+    <value>Label_S1</value>
+  </data>
+  <data name="&gt;&gt;Label_S1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_S1.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Label_S1.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="Label_G2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label_G2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label_G2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 169</value>
+  </data>
+  <data name="Label_G2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="Label_G2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 13</value>
+  </data>
+  <data name="Label_G2.TabIndex" type="System.Int32, mscorlib">
+    <value>82</value>
+  </data>
+  <data name="Label_G2.Text" xml:space="preserve">
+    <value>G2</value>
+  </data>
+  <data name="&gt;&gt;Label_G2.Name" xml:space="preserve">
+    <value>Label_G2</value>
+  </data>
+  <data name="&gt;&gt;Label_G2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_G2.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Label_G2.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="Label_G1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label_G1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>62, 169</value>
+  </data>
+  <data name="Label_G1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="Label_G1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 13</value>
+  </data>
+  <data name="Label_G1.TabIndex" type="System.Int32, mscorlib">
+    <value>81</value>
+  </data>
+  <data name="Label_G1.Text" xml:space="preserve">
+    <value>G1</value>
+  </data>
+  <data name="&gt;&gt;Label_G1.Name" xml:space="preserve">
+    <value>Label_G1</value>
+  </data>
+  <data name="&gt;&gt;Label_G1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_G1.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Label_G1.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="Lb_CValueDone.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Lb_CValueDone.Location" type="System.Drawing.Point, System.Drawing">
+    <value>834, 290</value>
+  </data>
+  <data name="Lb_CValueDone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 12</value>
+  </data>
+  <data name="Lb_CValueDone.TabIndex" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="Lb_CValueDone.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Lb_CValueDone.Name" xml:space="preserve">
+    <value>Lb_CValueDone</value>
+  </data>
+  <data name="&gt;&gt;Lb_CValueDone.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lb_CValueDone.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Lb_CValueDone.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="Lb_Cvalue.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Lb_Cvalue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>834, 274</value>
+  </data>
+  <data name="Lb_Cvalue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 12</value>
+  </data>
+  <data name="Lb_Cvalue.TabIndex" type="System.Int32, mscorlib">
+    <value>79</value>
+  </data>
+  <data name="Lb_Cvalue.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Lb_Cvalue.Name" xml:space="preserve">
+    <value>Lb_Cvalue</value>
+  </data>
+  <data name="&gt;&gt;Lb_Cvalue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lb_Cvalue.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Lb_Cvalue.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="Lb_WValueDone.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Lb_WValueDone.Location" type="System.Drawing.Point, System.Drawing">
+    <value>713, 292</value>
+  </data>
+  <data name="Lb_WValueDone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 12</value>
+  </data>
+  <data name="Lb_WValueDone.TabIndex" type="System.Int32, mscorlib">
+    <value>78</value>
+  </data>
+  <data name="Lb_WValueDone.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Lb_WValueDone.Name" xml:space="preserve">
+    <value>Lb_WValueDone</value>
+  </data>
+  <data name="&gt;&gt;Lb_WValueDone.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lb_WValueDone.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Lb_WValueDone.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="Lb_Wvalue.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Lb_Wvalue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>713, 276</value>
+  </data>
+  <data name="Lb_Wvalue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 12</value>
+  </data>
+  <data name="Lb_Wvalue.TabIndex" type="System.Int32, mscorlib">
+    <value>77</value>
+  </data>
+  <data name="Lb_Wvalue.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Lb_Wvalue.Name" xml:space="preserve">
+    <value>Lb_Wvalue</value>
+  </data>
+  <data name="&gt;&gt;Lb_Wvalue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lb_Wvalue.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Lb_Wvalue.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="Lb_AValueDone.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Lb_AValueDone.Location" type="System.Drawing.Point, System.Drawing">
+    <value>712, 207</value>
+  </data>
+  <data name="Lb_AValueDone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 12</value>
+  </data>
+  <data name="Lb_AValueDone.TabIndex" type="System.Int32, mscorlib">
+    <value>76</value>
+  </data>
+  <data name="Lb_AValueDone.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Lb_AValueDone.Name" xml:space="preserve">
+    <value>Lb_AValueDone</value>
+  </data>
+  <data name="&gt;&gt;Lb_AValueDone.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lb_AValueDone.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Lb_AValueDone.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="Lb_Avalue.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Lb_Avalue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>712, 191</value>
+  </data>
+  <data name="Lb_Avalue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 12</value>
+  </data>
+  <data name="Lb_Avalue.TabIndex" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="Lb_Avalue.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Lb_Avalue.Name" xml:space="preserve">
+    <value>Lb_Avalue</value>
+  </data>
+  <data name="&gt;&gt;Lb_Avalue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lb_Avalue.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Lb_Avalue.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="Lb_SValueDone.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Lb_SValueDone.Location" type="System.Drawing.Point, System.Drawing">
+    <value>239, 319</value>
+  </data>
+  <data name="Lb_SValueDone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 12</value>
+  </data>
+  <data name="Lb_SValueDone.TabIndex" type="System.Int32, mscorlib">
+    <value>74</value>
+  </data>
+  <data name="Lb_SValueDone.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Lb_SValueDone.Name" xml:space="preserve">
+    <value>Lb_SValueDone</value>
+  </data>
+  <data name="&gt;&gt;Lb_SValueDone.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lb_SValueDone.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Lb_SValueDone.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="Lb_Svalue.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Lb_Svalue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>239, 303</value>
+  </data>
+  <data name="Lb_Svalue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 12</value>
+  </data>
+  <data name="Lb_Svalue.TabIndex" type="System.Int32, mscorlib">
+    <value>73</value>
+  </data>
+  <data name="Lb_Svalue.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Lb_Svalue.Name" xml:space="preserve">
+    <value>Lb_Svalue</value>
+  </data>
+  <data name="&gt;&gt;Lb_Svalue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lb_Svalue.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Lb_Svalue.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="Lb_C3ValueDone.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Lb_C3ValueDone.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1124, 194</value>
+  </data>
+  <data name="Lb_C3ValueDone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 12</value>
+  </data>
+  <data name="Lb_C3ValueDone.TabIndex" type="System.Int32, mscorlib">
+    <value>72</value>
+  </data>
+  <data name="Lb_C3ValueDone.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Lb_C3ValueDone.Name" xml:space="preserve">
+    <value>Lb_C3ValueDone</value>
+  </data>
+  <data name="&gt;&gt;Lb_C3ValueDone.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lb_C3ValueDone.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Lb_C3ValueDone.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="Lb_C3Order.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Lb_C3Order.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1124, 178</value>
+  </data>
+  <data name="Lb_C3Order.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 12</value>
+  </data>
+  <data name="Lb_C3Order.TabIndex" type="System.Int32, mscorlib">
+    <value>71</value>
+  </data>
+  <data name="Lb_C3Order.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Lb_C3Order.Name" xml:space="preserve">
+    <value>Lb_C3Order</value>
+  </data>
+  <data name="&gt;&gt;Lb_C3Order.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lb_C3Order.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Lb_C3Order.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="Lb_C3value.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Lb_C3value.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1124, 162</value>
+  </data>
+  <data name="Lb_C3value.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 12</value>
+  </data>
+  <data name="Lb_C3value.TabIndex" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="Lb_C3value.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Lb_C3value.Name" xml:space="preserve">
+    <value>Lb_C3value</value>
+  </data>
+  <data name="&gt;&gt;Lb_C3value.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lb_C3value.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Lb_C3value.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="Lb_C2ValueDone.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Lb_C2ValueDone.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1060, 134</value>
+  </data>
+  <data name="Lb_C2ValueDone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 12</value>
+  </data>
+  <data name="Lb_C2ValueDone.TabIndex" type="System.Int32, mscorlib">
+    <value>69</value>
+  </data>
+  <data name="Lb_C2ValueDone.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Lb_C2ValueDone.Name" xml:space="preserve">
+    <value>Lb_C2ValueDone</value>
+  </data>
+  <data name="&gt;&gt;Lb_C2ValueDone.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lb_C2ValueDone.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Lb_C2ValueDone.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="Lb_C2Order.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Lb_C2Order.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1060, 118</value>
+  </data>
+  <data name="Lb_C2Order.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 12</value>
+  </data>
+  <data name="Lb_C2Order.TabIndex" type="System.Int32, mscorlib">
+    <value>68</value>
+  </data>
+  <data name="Lb_C2Order.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Lb_C2Order.Name" xml:space="preserve">
+    <value>Lb_C2Order</value>
+  </data>
+  <data name="&gt;&gt;Lb_C2Order.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lb_C2Order.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Lb_C2Order.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="Lb_C2value.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Lb_C2value.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1060, 102</value>
+  </data>
+  <data name="Lb_C2value.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 12</value>
+  </data>
+  <data name="Lb_C2value.TabIndex" type="System.Int32, mscorlib">
+    <value>67</value>
+  </data>
+  <data name="Lb_C2value.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Lb_C2value.Name" xml:space="preserve">
+    <value>Lb_C2value</value>
+  </data>
+  <data name="&gt;&gt;Lb_C2value.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lb_C2value.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Lb_C2value.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="Lb_C1ValueDone.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Lb_C1ValueDone.Location" type="System.Drawing.Point, System.Drawing">
+    <value>998, 79</value>
+  </data>
+  <data name="Lb_C1ValueDone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 12</value>
+  </data>
+  <data name="Lb_C1ValueDone.TabIndex" type="System.Int32, mscorlib">
+    <value>66</value>
+  </data>
+  <data name="Lb_C1ValueDone.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Lb_C1ValueDone.Name" xml:space="preserve">
+    <value>Lb_C1ValueDone</value>
+  </data>
+  <data name="&gt;&gt;Lb_C1ValueDone.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lb_C1ValueDone.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Lb_C1ValueDone.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="Lb_C1Order.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Lb_C1Order.Location" type="System.Drawing.Point, System.Drawing">
+    <value>998, 63</value>
+  </data>
+  <data name="Lb_C1Order.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 12</value>
+  </data>
+  <data name="Lb_C1Order.TabIndex" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="Lb_C1Order.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Lb_C1Order.Name" xml:space="preserve">
+    <value>Lb_C1Order</value>
+  </data>
+  <data name="&gt;&gt;Lb_C1Order.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lb_C1Order.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Lb_C1Order.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="Lb_C1value.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Lb_C1value.Location" type="System.Drawing.Point, System.Drawing">
+    <value>998, 47</value>
+  </data>
+  <data name="Lb_C1value.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 12</value>
+  </data>
+  <data name="Lb_C1value.TabIndex" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <data name="Lb_C1value.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Lb_C1value.Name" xml:space="preserve">
+    <value>Lb_C1value</value>
+  </data>
+  <data name="&gt;&gt;Lb_C1value.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lb_C1value.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Lb_C1value.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="Lb_W1ValueDone.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Lb_W1ValueDone.Location" type="System.Drawing.Point, System.Drawing">
+    <value>879, 86</value>
+  </data>
+  <data name="Lb_W1ValueDone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 12</value>
+  </data>
+  <data name="Lb_W1ValueDone.TabIndex" type="System.Int32, mscorlib">
+    <value>63</value>
+  </data>
+  <data name="Lb_W1ValueDone.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Lb_W1ValueDone.Name" xml:space="preserve">
+    <value>Lb_W1ValueDone</value>
+  </data>
+  <data name="&gt;&gt;Lb_W1ValueDone.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lb_W1ValueDone.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Lb_W1ValueDone.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="Lb_W1Order.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Lb_W1Order.Location" type="System.Drawing.Point, System.Drawing">
+    <value>879, 70</value>
+  </data>
+  <data name="Lb_W1Order.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 12</value>
+  </data>
+  <data name="Lb_W1Order.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="Lb_W1Order.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Lb_W1Order.Name" xml:space="preserve">
+    <value>Lb_W1Order</value>
+  </data>
+  <data name="&gt;&gt;Lb_W1Order.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lb_W1Order.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Lb_W1Order.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="Lb_W1value.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Lb_W1value.Location" type="System.Drawing.Point, System.Drawing">
+    <value>879, 54</value>
+  </data>
+  <data name="Lb_W1value.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 12</value>
+  </data>
+  <data name="Lb_W1value.TabIndex" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="Lb_W1value.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Lb_W1value.Name" xml:space="preserve">
+    <value>Lb_W1value</value>
+  </data>
+  <data name="&gt;&gt;Lb_W1value.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lb_W1value.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Lb_W1value.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="Lb_A3ValueDone.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Lb_A3ValueDone.Location" type="System.Drawing.Point, System.Drawing">
+    <value>410, 79</value>
+  </data>
+  <data name="Lb_A3ValueDone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 12</value>
+  </data>
+  <data name="Lb_A3ValueDone.TabIndex" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="Lb_A3ValueDone.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Lb_A3ValueDone.Name" xml:space="preserve">
+    <value>Lb_A3ValueDone</value>
+  </data>
+  <data name="&gt;&gt;Lb_A3ValueDone.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lb_A3ValueDone.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Lb_A3ValueDone.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="Lb_A3Order.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Lb_A3Order.Location" type="System.Drawing.Point, System.Drawing">
+    <value>410, 63</value>
+  </data>
+  <data name="Lb_A3Order.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 12</value>
+  </data>
+  <data name="Lb_A3Order.TabIndex" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="Lb_A3Order.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Lb_A3Order.Name" xml:space="preserve">
+    <value>Lb_A3Order</value>
+  </data>
+  <data name="&gt;&gt;Lb_A3Order.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lb_A3Order.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Lb_A3Order.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="Lb_A3value.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Lb_A3value.Location" type="System.Drawing.Point, System.Drawing">
+    <value>410, 47</value>
+  </data>
+  <data name="Lb_A3value.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 12</value>
+  </data>
+  <data name="Lb_A3value.TabIndex" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="Lb_A3value.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Lb_A3value.Name" xml:space="preserve">
+    <value>Lb_A3value</value>
+  </data>
+  <data name="&gt;&gt;Lb_A3value.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lb_A3value.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Lb_A3value.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="Lb_A2ValueDone.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Lb_A2ValueDone.Location" type="System.Drawing.Point, System.Drawing">
+    <value>342, 79</value>
+  </data>
+  <data name="Lb_A2ValueDone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 12</value>
+  </data>
+  <data name="Lb_A2ValueDone.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="Lb_A2ValueDone.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Lb_A2ValueDone.Name" xml:space="preserve">
+    <value>Lb_A2ValueDone</value>
+  </data>
+  <data name="&gt;&gt;Lb_A2ValueDone.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lb_A2ValueDone.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Lb_A2ValueDone.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="Lb_A2Order.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Lb_A2Order.Location" type="System.Drawing.Point, System.Drawing">
+    <value>342, 63</value>
+  </data>
+  <data name="Lb_A2Order.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 12</value>
+  </data>
+  <data name="Lb_A2Order.TabIndex" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="Lb_A2Order.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Lb_A2Order.Name" xml:space="preserve">
+    <value>Lb_A2Order</value>
+  </data>
+  <data name="&gt;&gt;Lb_A2Order.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lb_A2Order.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Lb_A2Order.ZOrder" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="Lb_A2value.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Lb_A2value.Location" type="System.Drawing.Point, System.Drawing">
+    <value>342, 47</value>
+  </data>
+  <data name="Lb_A2value.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 12</value>
+  </data>
+  <data name="Lb_A2value.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="Lb_A2value.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Lb_A2value.Name" xml:space="preserve">
+    <value>Lb_A2value</value>
+  </data>
+  <data name="&gt;&gt;Lb_A2value.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lb_A2value.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Lb_A2value.ZOrder" xml:space="preserve">
+    <value>42</value>
+  </data>
+  <data name="Lb_A1ValueDone.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Lb_A1ValueDone.Location" type="System.Drawing.Point, System.Drawing">
+    <value>272, 79</value>
+  </data>
+  <data name="Lb_A1ValueDone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 12</value>
+  </data>
+  <data name="Lb_A1ValueDone.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="Lb_A1ValueDone.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Lb_A1ValueDone.Name" xml:space="preserve">
+    <value>Lb_A1ValueDone</value>
+  </data>
+  <data name="&gt;&gt;Lb_A1ValueDone.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lb_A1ValueDone.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Lb_A1ValueDone.ZOrder" xml:space="preserve">
+    <value>43</value>
+  </data>
+  <data name="Lb_A1Order.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Lb_A1Order.Location" type="System.Drawing.Point, System.Drawing">
+    <value>272, 63</value>
+  </data>
+  <data name="Lb_A1Order.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 12</value>
+  </data>
+  <data name="Lb_A1Order.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="Lb_A1Order.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Lb_A1Order.Name" xml:space="preserve">
+    <value>Lb_A1Order</value>
+  </data>
+  <data name="&gt;&gt;Lb_A1Order.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lb_A1Order.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Lb_A1Order.ZOrder" xml:space="preserve">
+    <value>44</value>
+  </data>
+  <data name="Lb_A1value.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Lb_A1value.Location" type="System.Drawing.Point, System.Drawing">
+    <value>272, 47</value>
+  </data>
+  <data name="Lb_A1value.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 12</value>
+  </data>
+  <data name="Lb_A1value.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="Lb_A1value.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Lb_A1value.Name" xml:space="preserve">
+    <value>Lb_A1value</value>
+  </data>
+  <data name="&gt;&gt;Lb_A1value.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lb_A1value.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Lb_A1value.ZOrder" xml:space="preserve">
+    <value>45</value>
+  </data>
+  <data name="Lb_GValueDone.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Lb_GValueDone.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 319</value>
+  </data>
+  <data name="Lb_GValueDone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 12</value>
+  </data>
+  <data name="Lb_GValueDone.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="Lb_GValueDone.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Lb_GValueDone.Name" xml:space="preserve">
+    <value>Lb_GValueDone</value>
+  </data>
+  <data name="&gt;&gt;Lb_GValueDone.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lb_GValueDone.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Lb_GValueDone.ZOrder" xml:space="preserve">
+    <value>46</value>
+  </data>
+  <data name="Lb_Gvalue.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Lb_Gvalue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 303</value>
+  </data>
+  <data name="Lb_Gvalue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 12</value>
+  </data>
+  <data name="Lb_Gvalue.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="Lb_Gvalue.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Lb_Gvalue.Name" xml:space="preserve">
+    <value>Lb_Gvalue</value>
+  </data>
+  <data name="&gt;&gt;Lb_Gvalue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lb_Gvalue.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Lb_Gvalue.ZOrder" xml:space="preserve">
+    <value>47</value>
+  </data>
+  <data name="Lb_S2ValueDone.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Lb_S2ValueDone.Location" type="System.Drawing.Point, System.Drawing">
+    <value>282, 230</value>
+  </data>
+  <data name="Lb_S2ValueDone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 12</value>
+  </data>
+  <data name="Lb_S2ValueDone.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="Lb_S2ValueDone.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Lb_S2ValueDone.Name" xml:space="preserve">
+    <value>Lb_S2ValueDone</value>
+  </data>
+  <data name="&gt;&gt;Lb_S2ValueDone.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lb_S2ValueDone.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Lb_S2ValueDone.ZOrder" xml:space="preserve">
+    <value>48</value>
+  </data>
+  <data name="Lb_S2Order.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Lb_S2Order.Location" type="System.Drawing.Point, System.Drawing">
+    <value>282, 214</value>
+  </data>
+  <data name="Lb_S2Order.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 12</value>
+  </data>
+  <data name="Lb_S2Order.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="Lb_S2Order.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Lb_S2Order.Name" xml:space="preserve">
+    <value>Lb_S2Order</value>
+  </data>
+  <data name="&gt;&gt;Lb_S2Order.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lb_S2Order.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Lb_S2Order.ZOrder" xml:space="preserve">
+    <value>49</value>
+  </data>
+  <data name="Lb_S2value.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Lb_S2value.Location" type="System.Drawing.Point, System.Drawing">
+    <value>282, 198</value>
+  </data>
+  <data name="Lb_S2value.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 12</value>
+  </data>
+  <data name="Lb_S2value.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="Lb_S2value.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Lb_S2value.Name" xml:space="preserve">
+    <value>Lb_S2value</value>
+  </data>
+  <data name="&gt;&gt;Lb_S2value.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lb_S2value.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Lb_S2value.ZOrder" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="Lb_S1ValueDone.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Lb_S1ValueDone.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 230</value>
+  </data>
+  <data name="Lb_S1ValueDone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 12</value>
+  </data>
+  <data name="Lb_S1ValueDone.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="Lb_S1ValueDone.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Lb_S1ValueDone.Name" xml:space="preserve">
+    <value>Lb_S1ValueDone</value>
+  </data>
+  <data name="&gt;&gt;Lb_S1ValueDone.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lb_S1ValueDone.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Lb_S1ValueDone.ZOrder" xml:space="preserve">
+    <value>51</value>
+  </data>
+  <data name="Lb_S1Order.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Lb_S1Order.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 214</value>
+  </data>
+  <data name="Lb_S1Order.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 12</value>
+  </data>
+  <data name="Lb_S1Order.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="Lb_S1Order.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Lb_S1Order.Name" xml:space="preserve">
+    <value>Lb_S1Order</value>
+  </data>
+  <data name="&gt;&gt;Lb_S1Order.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lb_S1Order.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Lb_S1Order.ZOrder" xml:space="preserve">
+    <value>52</value>
+  </data>
+  <data name="Lb_S1value.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Lb_S1value.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 198</value>
+  </data>
+  <data name="Lb_S1value.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 12</value>
+  </data>
+  <data name="Lb_S1value.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="Lb_S1value.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Lb_S1value.Name" xml:space="preserve">
+    <value>Lb_S1value</value>
+  </data>
+  <data name="&gt;&gt;Lb_S1value.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lb_S1value.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Lb_S1value.ZOrder" xml:space="preserve">
+    <value>53</value>
+  </data>
+  <data name="Lb_G2ValueDone.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Lb_G2ValueDone.Location" type="System.Drawing.Point, System.Drawing">
+    <value>129, 230</value>
+  </data>
+  <data name="Lb_G2ValueDone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 12</value>
+  </data>
+  <data name="Lb_G2ValueDone.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="Lb_G2ValueDone.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Lb_G2ValueDone.Name" xml:space="preserve">
+    <value>Lb_G2ValueDone</value>
+  </data>
+  <data name="&gt;&gt;Lb_G2ValueDone.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lb_G2ValueDone.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Lb_G2ValueDone.ZOrder" xml:space="preserve">
+    <value>54</value>
+  </data>
+  <data name="Lb_G2Order.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Lb_G2Order.Location" type="System.Drawing.Point, System.Drawing">
+    <value>129, 214</value>
+  </data>
+  <data name="Lb_G2Order.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 12</value>
+  </data>
+  <data name="Lb_G2Order.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="Lb_G2Order.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Lb_G2Order.Name" xml:space="preserve">
+    <value>Lb_G2Order</value>
+  </data>
+  <data name="&gt;&gt;Lb_G2Order.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lb_G2Order.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Lb_G2Order.ZOrder" xml:space="preserve">
+    <value>55</value>
+  </data>
+  <data name="Lb_G2value.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Lb_G2value.Location" type="System.Drawing.Point, System.Drawing">
+    <value>129, 198</value>
+  </data>
+  <data name="Lb_G2value.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 12</value>
+  </data>
+  <data name="Lb_G2value.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="Lb_G2value.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Lb_G2value.Name" xml:space="preserve">
+    <value>Lb_G2value</value>
+  </data>
+  <data name="&gt;&gt;Lb_G2value.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lb_G2value.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Lb_G2value.ZOrder" xml:space="preserve">
+    <value>56</value>
+  </data>
+  <data name="Lb_G1ValueDone.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Lb_G1ValueDone.Location" type="System.Drawing.Point, System.Drawing">
+    <value>53, 230</value>
+  </data>
+  <data name="Lb_G1ValueDone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 12</value>
+  </data>
+  <data name="Lb_G1ValueDone.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="Lb_G1ValueDone.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Lb_G1ValueDone.Name" xml:space="preserve">
+    <value>Lb_G1ValueDone</value>
+  </data>
+  <data name="&gt;&gt;Lb_G1ValueDone.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lb_G1ValueDone.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Lb_G1ValueDone.ZOrder" xml:space="preserve">
+    <value>57</value>
+  </data>
+  <data name="Lb_G1Order.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Lb_G1Order.Location" type="System.Drawing.Point, System.Drawing">
+    <value>53, 214</value>
+  </data>
+  <data name="Lb_G1Order.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 12</value>
+  </data>
+  <data name="Lb_G1Order.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="Lb_G1Order.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Lb_G1Order.Name" xml:space="preserve">
+    <value>Lb_G1Order</value>
+  </data>
+  <data name="&gt;&gt;Lb_G1Order.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lb_G1Order.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Lb_G1Order.ZOrder" xml:space="preserve">
+    <value>58</value>
+  </data>
+  <data name="Pic_MixerON.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Pic_MixerON.Location" type="System.Drawing.Point, System.Drawing">
+    <value>615, 432</value>
+  </data>
+  <data name="Pic_MixerON.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="Pic_MixerON.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="Pic_MixerON.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="Pic_MixerON.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;Pic_MixerON.Name" xml:space="preserve">
+    <value>Pic_MixerON</value>
+  </data>
+  <data name="&gt;&gt;Pic_MixerON.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Pic_MixerON.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Pic_MixerON.ZOrder" xml:space="preserve">
+    <value>59</value>
+  </data>
+  <data name="Pic_ConveyerON.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Pic_ConveyerON.Location" type="System.Drawing.Point, System.Drawing">
+    <value>53, 397</value>
+  </data>
+  <data name="Pic_ConveyerON.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="Pic_ConveyerON.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="Pic_ConveyerON.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="Pic_ConveyerON.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;Pic_ConveyerON.Name" xml:space="preserve">
+    <value>Pic_ConveyerON</value>
+  </data>
+  <data name="&gt;&gt;Pic_ConveyerON.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Pic_ConveyerON.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Pic_ConveyerON.ZOrder" xml:space="preserve">
+    <value>60</value>
+  </data>
+  <data name="Pic_VIB_A3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Pic_VIB_A3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>395, 129</value>
+  </data>
+  <data name="Pic_VIB_A3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="Pic_VIB_A3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 17</value>
+  </data>
+  <data name="Pic_VIB_A3.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="Pic_VIB_A3.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;Pic_VIB_A3.Name" xml:space="preserve">
+    <value>Pic_VIB_A3</value>
+  </data>
+  <data name="&gt;&gt;Pic_VIB_A3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Pic_VIB_A3.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Pic_VIB_A3.ZOrder" xml:space="preserve">
+    <value>61</value>
+  </data>
+  <data name="Pic_VIB_A2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Pic_VIB_A2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>327, 129</value>
+  </data>
+  <data name="Pic_VIB_A2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="Pic_VIB_A2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 17</value>
+  </data>
+  <data name="Pic_VIB_A2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="Pic_VIB_A2.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;Pic_VIB_A2.Name" xml:space="preserve">
+    <value>Pic_VIB_A2</value>
+  </data>
+  <data name="&gt;&gt;Pic_VIB_A2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Pic_VIB_A2.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Pic_VIB_A2.ZOrder" xml:space="preserve">
+    <value>62</value>
+  </data>
+  <data name="Pic_VIB_A1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Pic_VIB_A1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>257, 129</value>
+  </data>
+  <data name="Pic_VIB_A1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="Pic_VIB_A1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 17</value>
+  </data>
+  <data name="Pic_VIB_A1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="Pic_VIB_A1.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;Pic_VIB_A1.Name" xml:space="preserve">
+    <value>Pic_VIB_A1</value>
+  </data>
+  <data name="&gt;&gt;Pic_VIB_A1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Pic_VIB_A1.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Pic_VIB_A1.ZOrder" xml:space="preserve">
+    <value>63</value>
+  </data>
+  <data name="Pic_VIB_C3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Pic_VIB_C3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1107, 266</value>
+  </data>
+  <data name="Pic_VIB_C3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="Pic_VIB_C3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 17</value>
+  </data>
+  <data name="Pic_VIB_C3.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="Pic_VIB_C3.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;Pic_VIB_C3.Name" xml:space="preserve">
+    <value>Pic_VIB_C3</value>
+  </data>
+  <data name="&gt;&gt;Pic_VIB_C3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Pic_VIB_C3.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Pic_VIB_C3.ZOrder" xml:space="preserve">
+    <value>64</value>
+  </data>
+  <data name="Pic_VIB_C2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Pic_VIB_C2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1046, 209</value>
+  </data>
+  <data name="Pic_VIB_C2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="Pic_VIB_C2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 17</value>
+  </data>
+  <data name="Pic_VIB_C2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="Pic_VIB_C2.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;Pic_VIB_C2.Name" xml:space="preserve">
+    <value>Pic_VIB_C2</value>
+  </data>
+  <data name="&gt;&gt;Pic_VIB_C2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Pic_VIB_C2.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Pic_VIB_C2.ZOrder" xml:space="preserve">
+    <value>65</value>
+  </data>
+  <data name="Pic_VIB_C1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Pic_VIB_C1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>984, 149</value>
+  </data>
+  <data name="Pic_VIB_C1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="Pic_VIB_C1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 17</value>
+  </data>
+  <data name="Pic_VIB_C1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="Pic_VIB_C1.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;Pic_VIB_C1.Name" xml:space="preserve">
+    <value>Pic_VIB_C1</value>
+  </data>
+  <data name="&gt;&gt;Pic_VIB_C1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Pic_VIB_C1.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Pic_VIB_C1.ZOrder" xml:space="preserve">
+    <value>66</value>
+  </data>
+  <data name="Pic_VIB_W1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Pic_VIB_W1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>859, 151</value>
+  </data>
+  <data name="Pic_VIB_W1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="Pic_VIB_W1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 17</value>
+  </data>
+  <data name="Pic_VIB_W1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="Pic_VIB_W1.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;Pic_VIB_W1.Name" xml:space="preserve">
+    <value>Pic_VIB_W1</value>
+  </data>
+  <data name="&gt;&gt;Pic_VIB_W1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Pic_VIB_W1.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Pic_VIB_W1.ZOrder" xml:space="preserve">
+    <value>67</value>
+  </data>
+  <data name="Pic_VIB_C.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Pic_VIB_C.Location" type="System.Drawing.Point, System.Drawing">
+    <value>815, 323</value>
+  </data>
+  <data name="Pic_VIB_C.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="Pic_VIB_C.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 17</value>
+  </data>
+  <data name="Pic_VIB_C.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="Pic_VIB_C.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;Pic_VIB_C.Name" xml:space="preserve">
+    <value>Pic_VIB_C</value>
+  </data>
+  <data name="&gt;&gt;Pic_VIB_C.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Pic_VIB_C.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Pic_VIB_C.ZOrder" xml:space="preserve">
+    <value>68</value>
+  </data>
+  <data name="Pic_VIB_W.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Pic_VIB_W.Location" type="System.Drawing.Point, System.Drawing">
+    <value>698, 323</value>
+  </data>
+  <data name="Pic_VIB_W.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="Pic_VIB_W.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 17</value>
+  </data>
+  <data name="Pic_VIB_W.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="Pic_VIB_W.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;Pic_VIB_W.Name" xml:space="preserve">
+    <value>Pic_VIB_W</value>
+  </data>
+  <data name="&gt;&gt;Pic_VIB_W.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Pic_VIB_W.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Pic_VIB_W.ZOrder" xml:space="preserve">
+    <value>69</value>
+  </data>
+  <data name="Pic_VIB_A.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Pic_VIB_A.Location" type="System.Drawing.Point, System.Drawing">
+    <value>695, 237</value>
+  </data>
+  <data name="Pic_VIB_A.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="Pic_VIB_A.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 17</value>
+  </data>
+  <data name="Pic_VIB_A.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="Pic_VIB_A.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;Pic_VIB_A.Name" xml:space="preserve">
+    <value>Pic_VIB_A</value>
+  </data>
+  <data name="&gt;&gt;Pic_VIB_A.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Pic_VIB_A.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Pic_VIB_A.ZOrder" xml:space="preserve">
+    <value>70</value>
+  </data>
+  <data name="Pic_VIB_S.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Pic_VIB_S.Location" type="System.Drawing.Point, System.Drawing">
+    <value>234, 350</value>
+  </data>
+  <data name="Pic_VIB_S.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="Pic_VIB_S.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 17</value>
+  </data>
+  <data name="Pic_VIB_S.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="Pic_VIB_S.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;Pic_VIB_S.Name" xml:space="preserve">
+    <value>Pic_VIB_S</value>
+  </data>
+  <data name="&gt;&gt;Pic_VIB_S.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Pic_VIB_S.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Pic_VIB_S.ZOrder" xml:space="preserve">
+    <value>71</value>
+  </data>
+  <data name="Pic_VIB_G.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Pic_VIB_G.Location" type="System.Drawing.Point, System.Drawing">
+    <value>75, 350</value>
+  </data>
+  <data name="Pic_VIB_G.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="Pic_VIB_G.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 17</value>
+  </data>
+  <data name="Pic_VIB_G.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="Pic_VIB_G.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;Pic_VIB_G.Name" xml:space="preserve">
+    <value>Pic_VIB_G</value>
+  </data>
+  <data name="&gt;&gt;Pic_VIB_G.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Pic_VIB_G.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Pic_VIB_G.ZOrder" xml:space="preserve">
+    <value>72</value>
+  </data>
+  <data name="Pic_VIB_S2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Pic_VIB_S2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>269, 269</value>
+  </data>
+  <data name="Pic_VIB_S2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="Pic_VIB_S2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 17</value>
+  </data>
+  <data name="Pic_VIB_S2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="Pic_VIB_S2.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;Pic_VIB_S2.Name" xml:space="preserve">
+    <value>Pic_VIB_S2</value>
+  </data>
+  <data name="&gt;&gt;Pic_VIB_S2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Pic_VIB_S2.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Pic_VIB_S2.ZOrder" xml:space="preserve">
+    <value>73</value>
+  </data>
+  <data name="Pic_VIB_S1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Pic_VIB_S1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>191, 269</value>
+  </data>
+  <data name="Pic_VIB_S1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="Pic_VIB_S1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 17</value>
+  </data>
+  <data name="Pic_VIB_S1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="Pic_VIB_S1.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;Pic_VIB_S1.Name" xml:space="preserve">
+    <value>Pic_VIB_S1</value>
+  </data>
+  <data name="&gt;&gt;Pic_VIB_S1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Pic_VIB_S1.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Pic_VIB_S1.ZOrder" xml:space="preserve">
+    <value>74</value>
+  </data>
+  <data name="Pic_VIB_G2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Pic_VIB_G2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 269</value>
+  </data>
+  <data name="Pic_VIB_G2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="Pic_VIB_G2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 17</value>
+  </data>
+  <data name="Pic_VIB_G2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="Pic_VIB_G2.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;Pic_VIB_G2.Name" xml:space="preserve">
+    <value>Pic_VIB_G2</value>
+  </data>
+  <data name="&gt;&gt;Pic_VIB_G2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Pic_VIB_G2.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Pic_VIB_G2.ZOrder" xml:space="preserve">
+    <value>75</value>
+  </data>
+  <data name="Lb_G1value.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Lb_G1value.Location" type="System.Drawing.Point, System.Drawing">
+    <value>53, 198</value>
+  </data>
+  <data name="Lb_G1value.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 12</value>
+  </data>
+  <data name="Lb_G1value.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="Lb_G1value.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Lb_G1value.Name" xml:space="preserve">
+    <value>Lb_G1value</value>
+  </data>
+  <data name="&gt;&gt;Lb_G1value.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lb_G1value.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Lb_G1value.ZOrder" xml:space="preserve">
+    <value>76</value>
+  </data>
+  <data name="Pic_VIB_G1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Pic_VIB_G1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 269</value>
+  </data>
+  <data name="Pic_VIB_G1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="Pic_VIB_G1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 17</value>
+  </data>
+  <data name="Pic_VIB_G1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="Pic_VIB_G1.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;Pic_VIB_G1.Name" xml:space="preserve">
+    <value>Pic_VIB_G1</value>
+  </data>
+  <data name="&gt;&gt;Pic_VIB_G1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Pic_VIB_G1.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Pic_VIB_G1.ZOrder" xml:space="preserve">
+    <value>77</value>
+  </data>
+  <data name="Pic_C.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Pic_C.Location" type="System.Drawing.Point, System.Drawing">
+    <value>838, 323</value>
+  </data>
+  <data name="Pic_C.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 17</value>
+  </data>
+  <data name="Pic_C.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="Pic_C.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;Pic_C.Name" xml:space="preserve">
+    <value>Pic_C</value>
+  </data>
+  <data name="&gt;&gt;Pic_C.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Pic_C.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Pic_C.ZOrder" xml:space="preserve">
+    <value>78</value>
+  </data>
+  <data name="Pic_W1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Pic_W1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>882, 151</value>
+  </data>
+  <data name="Pic_W1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 17</value>
+  </data>
+  <data name="Pic_W1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="Pic_W1.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;Pic_W1.Name" xml:space="preserve">
+    <value>Pic_W1</value>
+  </data>
+  <data name="&gt;&gt;Pic_W1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Pic_W1.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Pic_W1.ZOrder" xml:space="preserve">
+    <value>79</value>
+  </data>
+  <data name="Pic_MixerOpen.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Pic_MixerOpen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>721, 483</value>
+  </data>
+  <data name="Pic_MixerOpen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 17</value>
+  </data>
+  <data name="Pic_MixerOpen.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="Pic_MixerOpen.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;Pic_MixerOpen.Name" xml:space="preserve">
+    <value>Pic_MixerOpen</value>
+  </data>
+  <data name="&gt;&gt;Pic_MixerOpen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Pic_MixerOpen.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Pic_MixerOpen.ZOrder" xml:space="preserve">
+    <value>80</value>
+  </data>
+  <data name="Pic_A3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Pic_A3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>417, 128</value>
+  </data>
+  <data name="Pic_A3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 17</value>
+  </data>
+  <data name="Pic_A3.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="Pic_A3.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;Pic_A3.Name" xml:space="preserve">
+    <value>Pic_A3</value>
+  </data>
+  <data name="&gt;&gt;Pic_A3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Pic_A3.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Pic_A3.ZOrder" xml:space="preserve">
+    <value>81</value>
+  </data>
+  <data name="Pic_G1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Pic_G1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 270</value>
+  </data>
+  <data name="Pic_G1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 17</value>
+  </data>
+  <data name="Pic_G1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="Pic_G1.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;Pic_G1.Name" xml:space="preserve">
+    <value>Pic_G1</value>
+  </data>
+  <data name="&gt;&gt;Pic_G1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Pic_G1.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Pic_G1.ZOrder" xml:space="preserve">
+    <value>82</value>
+  </data>
+  <data name="Pic_G.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Pic_G.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 350</value>
+  </data>
+  <data name="Pic_G.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 17</value>
+  </data>
+  <data name="Pic_G.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="Pic_G.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;Pic_G.Name" xml:space="preserve">
+    <value>Pic_G</value>
+  </data>
+  <data name="&gt;&gt;Pic_G.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Pic_G.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Pic_G.ZOrder" xml:space="preserve">
+    <value>83</value>
+  </data>
+  <data name="Pic_S.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Pic_S.Location" type="System.Drawing.Point, System.Drawing">
+    <value>257, 350</value>
+  </data>
+  <data name="Pic_S.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 17</value>
+  </data>
+  <data name="Pic_S.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="Pic_S.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;Pic_S.Name" xml:space="preserve">
+    <value>Pic_S</value>
+  </data>
+  <data name="&gt;&gt;Pic_S.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Pic_S.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Pic_S.ZOrder" xml:space="preserve">
+    <value>84</value>
+  </data>
+  <data name="Pic_C1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Pic_C1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1007, 150</value>
+  </data>
+  <data name="Pic_C1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 17</value>
+  </data>
+  <data name="Pic_C1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="Pic_C1.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;Pic_C1.Name" xml:space="preserve">
+    <value>Pic_C1</value>
+  </data>
+  <data name="&gt;&gt;Pic_C1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Pic_C1.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Pic_C1.ZOrder" xml:space="preserve">
+    <value>85</value>
+  </data>
+  <data name="Pic_C2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Pic_C2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1070, 210</value>
+  </data>
+  <data name="Pic_C2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 17</value>
+  </data>
+  <data name="Pic_C2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="Pic_C2.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;Pic_C2.Name" xml:space="preserve">
+    <value>Pic_C2</value>
+  </data>
+  <data name="&gt;&gt;Pic_C2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Pic_C2.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Pic_C2.ZOrder" xml:space="preserve">
+    <value>86</value>
+  </data>
+  <data name="Pic_C3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Pic_C3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1131, 271</value>
+  </data>
+  <data name="Pic_C3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 17</value>
+  </data>
+  <data name="Pic_C3.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="Pic_C3.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;Pic_C3.Name" xml:space="preserve">
+    <value>Pic_C3</value>
+  </data>
+  <data name="&gt;&gt;Pic_C3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Pic_C3.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Pic_C3.ZOrder" xml:space="preserve">
+    <value>87</value>
+  </data>
+  <data name="Pic_A.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Pic_A.Location" type="System.Drawing.Point, System.Drawing">
+    <value>718, 237</value>
+  </data>
+  <data name="Pic_A.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 17</value>
+  </data>
+  <data name="Pic_A.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="Pic_A.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;Pic_A.Name" xml:space="preserve">
+    <value>Pic_A</value>
+  </data>
+  <data name="&gt;&gt;Pic_A.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Pic_A.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Pic_A.ZOrder" xml:space="preserve">
+    <value>88</value>
+  </data>
+  <data name="Pic_W.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Pic_W.Location" type="System.Drawing.Point, System.Drawing">
+    <value>721, 323</value>
+  </data>
+  <data name="Pic_W.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 17</value>
+  </data>
+  <data name="Pic_W.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="Pic_W.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;Pic_W.Name" xml:space="preserve">
+    <value>Pic_W</value>
+  </data>
+  <data name="&gt;&gt;Pic_W.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Pic_W.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Pic_W.ZOrder" xml:space="preserve">
+    <value>89</value>
+  </data>
+  <data name="Pic_Temp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Pic_Temp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>603, 323</value>
+  </data>
+  <data name="Pic_Temp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 17</value>
+  </data>
+  <data name="Pic_Temp.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="Pic_Temp.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;Pic_Temp.Name" xml:space="preserve">
+    <value>Pic_Temp</value>
+  </data>
+  <data name="&gt;&gt;Pic_Temp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Pic_Temp.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Pic_Temp.ZOrder" xml:space="preserve">
+    <value>90</value>
+  </data>
+  <data name="Pic_G2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Pic_G2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>137, 270</value>
+  </data>
+  <data name="Pic_G2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 17</value>
+  </data>
+  <data name="Pic_G2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="Pic_G2.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Pic_G2.Name" xml:space="preserve">
+    <value>Pic_G2</value>
+  </data>
+  <data name="&gt;&gt;Pic_G2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Pic_G2.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Pic_G2.ZOrder" xml:space="preserve">
+    <value>91</value>
+  </data>
+  <data name="Pic_S1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Pic_S1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>214, 270</value>
+  </data>
+  <data name="Pic_S1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 17</value>
+  </data>
+  <data name="Pic_S1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="Pic_S1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Pic_S1.Name" xml:space="preserve">
+    <value>Pic_S1</value>
+  </data>
+  <data name="&gt;&gt;Pic_S1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Pic_S1.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Pic_S1.ZOrder" xml:space="preserve">
+    <value>92</value>
+  </data>
+  <data name="Pic_S2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Pic_S2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>292, 270</value>
+  </data>
+  <data name="Pic_S2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 17</value>
+  </data>
+  <data name="Pic_S2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="Pic_S2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Pic_S2.Name" xml:space="preserve">
+    <value>Pic_S2</value>
+  </data>
+  <data name="&gt;&gt;Pic_S2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Pic_S2.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Pic_S2.ZOrder" xml:space="preserve">
+    <value>93</value>
+  </data>
+  <data name="Pic_A2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Pic_A2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>349, 128</value>
+  </data>
+  <data name="Pic_A2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 17</value>
+  </data>
+  <data name="Pic_A2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="Pic_A2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Pic_A2.Name" xml:space="preserve">
+    <value>Pic_A2</value>
+  </data>
+  <data name="&gt;&gt;Pic_A2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Pic_A2.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Pic_A2.ZOrder" xml:space="preserve">
+    <value>94</value>
+  </data>
+  <data name="Pic_A1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Pic_A1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>281, 129</value>
+  </data>
+  <data name="Pic_A1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 17</value>
+  </data>
+  <data name="Pic_A1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Pic_A1.Name" xml:space="preserve">
+    <value>Pic_A1</value>
+  </data>
+  <data name="&gt;&gt;Pic_A1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Pic_A1.Parent" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Pic_A1.ZOrder" xml:space="preserve">
+    <value>95</value>
+  </data>
+  <data name="Label_Mixer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 1</value>
+  </data>
+  <data name="Label_Mixer.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="Label_Mixer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1206, 530</value>
+  </data>
+  <data name="Label_Mixer.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;Label_Mixer.Name" xml:space="preserve">
+    <value>Label_Mixer</value>
+  </data>
+  <data name="&gt;&gt;Label_Mixer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_Mixer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label_Mixer.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="Timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>344, 17</value>
+  </metadata>
+  <metadata name="Timer2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>433, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>58</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1352, 681</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>Manual</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>OPERATION</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItem1.Name" xml:space="preserve">
+    <value>ToolStripMenuItem1</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItem2.Name" xml:space="preserve">
+    <value>ToolStripMenuItem2</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItem2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Detail.Name" xml:space="preserve">
+    <value>Detail</value>
+  </data>
+  <data name="&gt;&gt;Detail.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Detail2.Name" xml:space="preserve">
+    <value>Detail2</value>
+  </data>
+  <data name="&gt;&gt;Detail2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Timer1.Name" xml:space="preserve">
+    <value>Timer1</value>
+  </data>
+  <data name="&gt;&gt;Timer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Timer2.Name" xml:space="preserve">
+    <value>Timer2</value>
+  </data>
+  <data name="&gt;&gt;Timer2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Operate</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
